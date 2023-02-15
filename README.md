@@ -60,7 +60,19 @@ module.exports = function (eleventyConfig) {
 };
 ```
 
-Read more about it on [workbox generateSW module page](https://developers.google.com/web/tools/workbox/modules/workbox-build#full_generatesw_config)
+Read more about it on [workbox generateSW module page](https://developers.google.com/web/tools/workbox/modules/workbox-build#full_generatesw_config).
+
+## Contributions
+
+Contributions of any kind are welcome.
+
+You can contribute by:
+
+- submiting bug reports
+- improving documentation
+- submitting pull requests
+
+Before contributing be sure to read [Code of Conduct](https://github.com/eleventy-plugin-pwa-v2/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
