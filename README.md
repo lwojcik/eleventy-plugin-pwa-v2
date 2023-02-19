@@ -72,7 +72,7 @@ You can contribute by:
 - improving documentation
 - submitting pull requests
 
-Before contributing be sure to read [Code of Conduct](https://github.com/eleventy-plugin-pwa-v2/blob/main/CODE_OF_CONDUCT.md).
+Before contributing be sure to read [Code of Conduct](https://github.com/lukemnet/eleventy-plugin-pwa-v2/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
