@@ -7,6 +7,14 @@ This is an independent fork of [@pkvach/eleventy-plugin-pwa](https://github.com/
 
 Compared to previous forks, this plugin relies on [eleventy.after event](https://www.11ty.dev/docs/events/#eleventy.after) rather than monkey-patching the Eleventy installation.
 
+## Demo
+
+Repository: https://github.com/lukemnet/eleventy-plugin-pwa-v2-demo
+
+Demo site on Netlify: https://eleventy-plugin-pwa-v2-demo.netlify.app/
+
+Demo site on Vercel: https://eleventy-plugin-pwa-v2-demo.vercel.app/
+
 ## Getting started
 
 ### Installation
