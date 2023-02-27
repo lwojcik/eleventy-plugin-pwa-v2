@@ -23,7 +23,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:cov": "jest --coverage"
   },
   "dependencies": {
     "workbox-build": "^6.5.4"
