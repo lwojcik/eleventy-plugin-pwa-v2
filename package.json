@@ -5,9 +5,9 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukemnet/eleventy-plugin-pwa-v2.git"
+    "url": "git+https://github.com/lwojcik/eleventy-plugin-pwa-v2.git"
   },
-  "homepage": "https://github.com/lukemnet/eleventy-plugin-pwa-v2",
+  "homepage": "https://github.com/lwojcik/eleventy-plugin-pwa-v2",
   "keywords": [
     "lukemnet",
     "eleventy-plugin",
