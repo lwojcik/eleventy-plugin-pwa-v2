@@ -9,7 +9,7 @@ Compared to previous forks, this plugin relies on [eleventy.after event](https:/
 
 ## Demo
 
-Repository: https://github.com/lukemnet/eleventy-plugin-pwa-v2-demo
+Repository: https://github.com/lwojcik/eleventy-plugin-pwa-v2-demo
 
 Demo site on Netlify: https://eleventy-plugin-pwa-v2-demo.netlify.app/
 
@@ -80,7 +80,7 @@ You can contribute by:
 - improving documentation
 - submitting pull requests
 
-Before contributing be sure to read [Code of Conduct](https://github.com/lukemnet/eleventy-plugin-pwa-v2/blob/main/CODE_OF_CONDUCT.md).
+Before contributing be sure to read [Code of Conduct](https://github.com/lwojcik/eleventy-plugin-pwa-v2/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
