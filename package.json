@@ -9,10 +9,11 @@
   },
   "homepage": "https://github.com/lwojcik/eleventy-plugin-pwa-v2",
   "keywords": [
-    "lukemnet",
     "eleventy-plugin",
     "eleventy",
     "workbox",
+    "serviceworker",
+    "generatesw",
     "pwa"
   ],
   "author": "Łukasz Wójcik",

@@ -1,7 +1,7 @@
 # eleventy-plugin-pwa-v2
 
-> An [Eleventy](https://11ty.io) plugin to generate service worker, **compatible with Eleventy v2.0**.
-> Using Google Workbox to generate service-worker.js based on your `dir.output`.
+> An [Eleventy](https://11ty.dev) plugin to generate service worker, **compatible with Eleventy v2.0**.
+> Using Google Workbox v6 to generate service-worker.js based on your `dir.output`.
 
 This is an independent fork of [@pkvach/eleventy-plugin-pwa](https://github.com/pkvach/eleventy-plugin-pwa), originally at version 1.4.0.
 
@@ -9,7 +9,7 @@ Compared to previous forks, this plugin relies on [eleventy.after event](https:/
 
 ## Demo
 
-Repository: https://github.com/lwojcik/eleventy-plugin-pwa-v2-demo
+Demo repository (Eleventy starter template with the plugin): https://github.com/lwojcik/eleventy-plugin-pwa-v2-demo
 
 Demo site on Netlify: https://eleventy-plugin-pwa-v2-demo.netlify.app/
 
@@ -23,9 +23,9 @@ Demo site on Vercel: https://eleventy-plugin-pwa-v2-demo.vercel.app/
 npm install eleventy-plugin-pwa-v2
 ```
 
-### Usage
+### Setup
 
-#### Add to eleventy config file
+Add plugin to your eleventy config file:
 
 ```js
 const pluginPWA = require("eleventy-plugin-pwa-v2");
@@ -35,29 +35,26 @@ module.exports = function (eleventyConfig) {
 };
 ```
 
-Read more about [Eleventy plugins](https://www.11ty.io/docs/plugins/)
-
-#### Registering Service Worker
+Register a Service Worker in your template:
 
 ```html
-// in your header templates
+// in your head section template
 <script>
-  if ("serviceWorker" in navigator)
+  if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("/service-worker.js");
+  }
 </script>
 ```
 
 #### Adding Web App Manifest
 
-Read [The Web App Manifest Guide](https://developers.google.com/web/fundamentals/web-app-manifest/)
+See the guide on [How to add a web app manifest](https://web.dev/add-manifest/).
 
 ## Options
 
-You can also pass workbox generateSW options directly into the plugin.
-For example :
+You can pass Workbox `generateSW` options directly into the plugin:
 
 ```js
-// overwriting destination file and more
 const pluginPWA = require("eleventy-plugin-pwa-v2");
 
 module.exports = function (eleventyConfig) {
@@ -68,7 +65,7 @@ module.exports = function (eleventyConfig) {
 };
 ```
 
-Read more about it on [workbox generateSW module page](https://developers.google.com/web/tools/workbox/modules/workbox-build#full_generatesw_config).
+All available options are listed on [Workbox generateSW module page](https://developer.chrome.com/docs/workbox/reference/workbox-build/#type-GenerateSWOptions).
 
 ## Contributions
 
