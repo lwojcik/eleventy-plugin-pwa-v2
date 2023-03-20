@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-pwa-v2",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "An Eleventy plugin to generate service worker for PWA using Google Workbox, compatible with Eleventy v2.x",
   "main": "src/index.js",
   "repository": {
