@@ -28,7 +28,7 @@
     "test:cov": "jest --coverage"
   },
   "dependencies": {
-    "workbox-build": "^6.5.4"
+    "workbox-build": "^7.0.0"
   },
   "devDependencies": {
     "jest": "^29.4.3",
