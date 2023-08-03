@@ -11,9 +11,7 @@ Compared to previous forks, this plugin relies on [eleventy.after event](https:/
 
 Demo repository (Eleventy starter template with the plugin): https://github.com/lwojcik/eleventy-plugin-pwa-v2-demo
 
-Demo site on Netlify: https://eleventy-plugin-pwa-v2-demo.netlify.app/
-
-Demo site on Vercel: https://eleventy-plugin-pwa-v2-demo.vercel.app/
+Demo site: https://eleventy-plugin-pwa-v2-demo.lkmt.us/
 
 ## Getting started
 
