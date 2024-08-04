@@ -1,28 +1,14 @@
 {
   "name": "eleventy-plugin-pwa-v2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An Eleventy plugin to generate service worker for PWA using Google Workbox, compatible with Eleventy v2.x",
   "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lwojcik/eleventy-plugin-pwa-v2.git"
-  },
-  "homepage": "https://github.com/lwojcik/eleventy-plugin-pwa-v2",
-  "keywords": [
-    "eleventy-plugin",
-    "eleventy",
-    "workbox",
-    "serviceworker",
-    "generatesw",
-    "pwa"
-  ],
   "author": "Łukasz Wójcik",
   "contributors": [
     "Pavel Kvach <pavel.kvach@gmail.com> (https://pavelkvach.com)",
     "Peter van der Steen <pvdsteen@gmail.com> (https://pvdsteen.com)",
     "Nanda Oktavera <codeharuka.yusa@gmail.com> (https://okitavera.me)"
   ],
-  "license": "MIT",
   "scripts": {
     "test": "jest",
     "test:cov": "jest --coverage"
