@@ -7,12 +7,6 @@ This is an independent fork of [@pkvach/eleventy-plugin-pwa](https://github.com/
 
 Compared to previous forks, this plugin relies on [eleventy.after event](https://www.11ty.dev/docs/events/#eleventy.after) rather than monkey-patching the Eleventy installation.
 
-## Demo
-
-Demo repository (Eleventy starter template with the plugin): https://github.com/lwojcik/eleventy-plugin-pwa-v2-demo
-
-Demo site: https://eleventy-plugin-pwa-v2-demo.lkmt.us/
-
 ## Getting started
 
 ### Installation
@@ -129,22 +123,6 @@ module.exports = function (eleventyConfig) {
 ```
 
 All available options are listed on [Workbox generateSW module page](https://developer.chrome.com/docs/workbox/reference/workbox-build/#type-GenerateSWOptions).
-
-## Contributions
-
-Contributions of any kind are welcome.
-
-You can contribute by:
-
-- submiting bug reports
-- improving documentation
-- submitting pull requests
-
-Before contributing be sure to read [Code of Conduct](https://github.com/lwojcik/eleventy-plugin-pwa-v2/blob/main/CODE_OF_CONDUCT.md).
-
-## License
-
-This code is available under the [MIT license](LICENSE).
 
 ## Acknowledgements
 
